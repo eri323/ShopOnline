@@ -20,7 +20,7 @@ Pedidos al 315 387 9931 (bio de Instagram). Domicilios y Nequi: 320 738 1389.
 
 ## Fotos
 
-`public/fotos/` no se sube al repo: son fotos de la tienda tomadas de Instagram y el repo es público. Para correr la demo, copiar ahí `ig-01.jpg … ig-12.jpg` (las que usa `src/data/prendas.ts`).
+`public/fotos/` tiene las fotos de la tienda tomadas de Instagram, solo para esta propuesta.
 
 ## Stack y comandos
 

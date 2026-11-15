@@ -47,5 +47,3 @@ next-env.d.ts
 # espacio de trabajo de superpowers
 .superpowers/
 
-# fotos de la tienda tomadas de Instagram: no van a un repo público
-/public/fotos/
