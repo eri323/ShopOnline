@@ -179,4 +179,8 @@
   .item b{display:block}
   .colgada.lado .foto{pointer-events:none}
   .ficha .foto{min-height:380px}
+  /* WhatsApp flotante: verde de WhatsApp oscurecido para que el texto blanco pase 4.5:1 */
+  .wsp{position:fixed;right:calc(16px + env(safe-area-inset-right));bottom:calc(16px + env(safe-area-inset-bottom));z-index:30;display:inline-flex;align-items:center;gap:8px;min-height:56px;padding:0 20px 0 16px;border-radius:999px;background:#1A7F4B;color:#fff;font-weight:600;text-decoration:none;box-shadow:0 10px 24px rgba(42,31,28,.25);transition:transform .2s,background .2s}
+  .wsp:hover{background:#156B3F;transform:translateY(-2px)}
+  @media (max-width:560px){.wsp{width:56px;padding:0;justify-content:center}.wsp span{display:none}}
 }

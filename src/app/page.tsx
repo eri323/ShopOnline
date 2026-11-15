@@ -1,5 +1,6 @@
 import { Aviso } from '@/components/Aviso';
 import { Bolsa } from '@/components/Bolsa';
+import { BotonWhatsApp } from '@/components/BotonWhatsApp';
 import { Catalogo } from '@/components/Catalogo';
 import { Encabezado } from '@/components/Encabezado';
 import { Ficha } from '@/components/Ficha';
@@ -27,6 +28,7 @@ export default async function Inicio({ searchParams }: Props) {
       <Pie />
       <Ficha />
       <Bolsa />
+      <BotonWhatsApp />
       <Aviso />
     </TiendaProvider>
   );
